@@ -62,8 +62,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  unless word == array[1]
   array.each do |word|
     word + "s"
-    unless word == array[1]
+    end
   end
 end
