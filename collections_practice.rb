@@ -70,4 +70,5 @@ def add_s(array)
       words_with_s << word
     end
   end
+  words_with_s
 end
