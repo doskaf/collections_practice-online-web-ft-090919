@@ -39,7 +39,8 @@ def kesha_maker(array)
   words_with_signs = []
   array.each do |word|
     word.split
-    words_with_signs << word[2] = "$"
+    word[2] = "$"
+    words_with_signs << word
   end
   words_with_signs
 end
