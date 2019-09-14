@@ -43,3 +43,13 @@ def kesha_maker(array)
   end
   words_with_signs
 end
+
+def find_a(array)
+  a_words = []
+  array.map do |word|
+    if word.start_with?("a")
+      a_words << word
+    end
+  end
+  a_words
+end
